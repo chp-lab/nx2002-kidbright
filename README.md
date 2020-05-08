@@ -55,11 +55,11 @@
 ### NETPIE2020 Block
 ---
 #### Connect to NETPIE2020
-<img src="static/block_netpie2020_connect.jpg" height="35"><br>
+<img src="static/block_netpie2020_connect.jpg" height="60"><br>
 เป็น block สำหรับเชื่อมต่อ NETPIE2020 โดยผู้ใช้งานต้องกรอก client id, token, secret ที่ generate มาจากการสร้าง device ใน NETPIE2020
 
 #### Callback
-<img src="static/block_netpie2020_callback.jpg" height="35"> <br>
+<img src="static/block_netpie2020_callback.jpg" height="50"> <br>
 เป็น block สำหรับจัดการ message ที่เข้ามาจาก NETPIE2020
 
 #### Subscribe topic
@@ -89,9 +89,9 @@ True - ยังคงเชื่อมต่อ
 False - ขาดการเชื่อมต่อ
 
 #### topic
-<img src="static/block_netpie2020_topic.jpg" height="35"><br>
+<img src="static/block_netpie2020_topic.jpg" height="30"><br>
 เป็น block ตัวแปร topic (ใช้ใน callback block)
 
 #### payload
-<img src="static/block_netpie2020_payload.jpg" height="35"><br>
+<img src="static/block_netpie2020_payload.jpg" height="30"><br>
 เป็น block ตัวแปร payload (ใช้ใน callback block)
