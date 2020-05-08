@@ -11,10 +11,10 @@
 2. เลือก NX2002 Board แล้วกด Change Board
 
 ### Block ภายใน NX2002 Kidbright
-เมื่อเลือกใช้งาน NX2002 Board ภายในจะมี Block สำหรับการใช้งาน NX2002 และ NETPIE2020 เพิ่มขึ้นมาโดยแต่ละ Block จะมีการทำงานดังนนี้
+เมื่อเลือกใช้งาน NX2002 Board ภายในจะมี Block สำหรับการใช้งาน NX2002 และ NETPIE2020 เพิ่มขึ้นมาโดยแต่ละ Block จะมีการทำงานดังนี้
 
 ---
-### NX2002 Block
+## NX2002 Block
 
 #### Using NX2002 RGB
 <img src="static/block_rgb_begin.jpg" height="35"><br>
@@ -53,7 +53,7 @@
 เป็น block สำหรับประกาศเริ่มใช้งาน NX2002 built-in button
 
 ---
-### NETPIE2020 Block
+## NETPIE2020 Block
 
 #### Connect to NETPIE2020
 <img src="static/block_netpie2020_connect.jpg" height="80"><br>
