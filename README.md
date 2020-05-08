@@ -17,7 +17,7 @@
 ----
 
 #### Using NX2002 RGB
-![alt text](static/block_rgb_begin.jpg "Using NX2002 RGB")<br>
+![alt text,20%](static/block_rgb_begin.jpg "Using NX2002 RGB")<br>
 เป็น Block สำหรับประกาศการเริ่มใช้งาน RGB LED บน NX2002
 
 #### Set RGB Color
