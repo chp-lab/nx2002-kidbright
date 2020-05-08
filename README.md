@@ -1,1 +1,1 @@
-# nx2002-kidbright
+# NX2002 KB-IDE
