@@ -17,11 +17,11 @@
 ----
 
 #### Using NX2002 RGB
-<img src="static/block_rgb_begin.jpg" height="70"><br>
+<img src="static/block_rgb_begin.jpg" height="30"><br>
 เป็น Block สำหรับประกาศการเริ่มใช้งาน RGB LED บน NX2002
 
 #### Set RGB Color
-<img src="static/block_rgb_set_color.jpg" height="70"><br>
+<img src="static/block_rgb_set_color.jpg" height="30"><br>
 เป็น Block สำหรับตั้งค่าสี RGB LED บน NX2002
 
 #### RGB LED Status
