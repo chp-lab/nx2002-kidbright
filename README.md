@@ -65,8 +65,7 @@
 #### NETPIE Client loop : เป็น block สำหรับคงสถานะการเชื่อมต่อกับ NETPIE2020
 <img src="static/block_netpie2020_client_loop.jpg" height="35">
 
-#### NETPIE2020 is connected : เป็น block สำหรับเช็คสถานะการเชื่อมต่อกับ NETPIE2020 โดยจะ return ค่าเป็น boolean (True = ยังคงเชื่อมต่อ
-, False = ขาดการเชื่อมต่อ)
+#### NETPIE2020 is connected : เป็น block สำหรับเช็คสถานะการเชื่อมต่อกับ NETPIE2020 โดยจะ return ค่าเป็น boolean (True = ยังคงเชื่อมต่อ, False = ขาดการเชื่อมต่อ)
 <img src="static/block_netpie2020_check_connection.jpg" height="35">
 
 #### topic : เป็น block ตัวแปร topic (ใช้ใน callback block)
