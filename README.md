@@ -51,6 +51,7 @@
 #### Using NX2002 built-in button
 <img src="static/block_btn_begin.jpg" height="35"><br>
 เป็น block สำหรับประกาศเริ่มใช้งาน NX2002 built-in button
+
 ---
 ### NETPIE2020 Block
 
