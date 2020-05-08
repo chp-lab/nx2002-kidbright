@@ -55,7 +55,7 @@
 ### NETPIE2020 Block
 ---
 #### Connect to NETPIE2020
-<img src="static/block_netpie2020_connect.jpg" height="60"><br>
+<img src="static/block_netpie2020_connect.jpg" height="80"><br>
 เป็น block สำหรับเชื่อมต่อ NETPIE2020 โดยผู้ใช้งานต้องกรอก client id, token, secret ที่ generate มาจากการสร้าง device ใน NETPIE2020
 
 #### Callback
