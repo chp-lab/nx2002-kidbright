@@ -60,7 +60,7 @@
 <img src="static/block_netpie2020_publish_message.jpg" height="35">
 
 #### Update Shadow : เป็น block สำหรับ update shadow บน NETPIE2020
-<img src="static/block_netpie2020_update_shadow.jpg" height="30">
+<img src="static/block_netpie2020_update_shadow.jpg" height="50">
 
 #### Reconnect NETPIE2020 : เป็น block สำหรับทำการ reconnect NETPIE2020
 <img src="static/block_netpie2020_reconnect.jpg" height="35">
@@ -72,7 +72,7 @@
 <img src="static/block_netpie2020_check_connection.jpg" height="35">
 
 #### Key-Value : เป็น block สำหรับสร้างข้อมูลที่จะไปอัพเดท shadow ของ NETPIE2020 (ใช้กับ Update Shadow block)
-<img src="static/block_netpie2020_key_value_pair.jpg" height="30">
+<img src="static/block_netpie2020_key_value_pair.jpg" height="50">
 
 #### topic : เป็น block ตัวแปร topic (ใช้ใน callback block)
 <img src="static/block_netpie2020_topic.jpg" height="30">
