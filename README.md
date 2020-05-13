@@ -59,6 +59,9 @@
 #### Publish Message : เป็น block สำหรับ publish message ไปยัง NETPIE2020
 <img src="static/block_netpie2020_publish_message.jpg" height="35">
 
+#### Update Shadow : เป็น block สำหรับ update shadow บน NETPIE2020
+<img src="static/block_netpie2020_update_shadow.jpg" height="30">
+
 #### Reconnect NETPIE2020 : เป็น block สำหรับทำการ reconnect NETPIE2020
 <img src="static/block_netpie2020_reconnect.jpg" height="35">
 
@@ -67,6 +70,9 @@
 
 #### NETPIE2020 is connected : เป็น block สำหรับเช็คสถานะการเชื่อมต่อกับ NETPIE2020 โดยจะ return ค่าเป็น boolean (True = ยังคงเชื่อมต่อ, False = ขาดการเชื่อมต่อ)
 <img src="static/block_netpie2020_check_connection.jpg" height="35">
+
+#### Key-Value : เป็น block สำหรับสร้างข้อมูลที่จะไปอัพเดท shadow ของ NETPIE2020 (ใช้กับ Update Shadow block)
+<img src="static/block_netpie2020_key_value_pair.jpg" height="30">
 
 #### topic : เป็น block ตัวแปร topic (ใช้ใน callback block)
 <img src="static/block_netpie2020_topic.jpg" height="30">
