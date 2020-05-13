@@ -29,9 +29,11 @@ module.exports = {
 				'netpie2020_subscribe',
 				'netpie2020_unsubscribe',
 				'netpie2020_publish',
+				'netpie2020_update_shadow',
 				'netpie2020_reconnect',
 				'client_loop',
 				'netpie2020_isConnected',
+				'key_value_pair',
 				'topic','payload'
 			]
 		}

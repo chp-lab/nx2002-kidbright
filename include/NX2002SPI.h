@@ -11,10 +11,10 @@
 #include <SD.h>
 #include <string.h>
 
-#define NX_CS 15
-#define NX_SCK 14
-#define NX_MISO 26
-#define NX_MOSI 13
+#define NX_CS 5
+#define NX_SCK 18
+#define NX_MISO 19
+#define NX_MOSI 23
 
 class NX2002SPI
 {

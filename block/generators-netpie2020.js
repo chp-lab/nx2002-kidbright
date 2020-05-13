@@ -79,6 +79,23 @@ module.exports = function(Blockly){
 		return code
 	}
 
+	Blockly.JavaScript['netpie2020_update_shadow'] = function(block) {
+		if(block.itemCount_ < 1){
+			return '{}'
+		}else{
+			var elements = new Array();
+			for (var i = 0; i < block.itemCount_; i++) {
+				let converted = Blockly.JavaScript.valueToCode(block, 'ADD' + i,Blockly.JavaScript.ORDER_COMMA);
+				if(converted != ''){
+					elements.push(converted);
+				}
+			}
+			var shadow_data = elements.join(',');
+			var code = `client.publish("@shadow/data/update", "{\\"data\\":{${shadow_data}}}");`
+			return code
+		}
+	}
+
 	Blockly.JavaScript['client_loop'] = function(block){
 		var code = `client.loop();`;
 		return code;
@@ -91,6 +108,13 @@ module.exports = function(Blockly){
 
 	Blockly.JavaScript['payload'] = function(block) {
 		var code = `payload`;
+		return [code, Blockly.JavaScript.ORDER_ATOMIC];
+	}
+
+	Blockly.JavaScript['key_value_pair'] = function(block){
+		var key = block.getFieldValue('key');
+		var value = Blockly.JavaScript.valueToCode(block, 'value',Blockly.JavaScript.ORDER_COMMA);
+		var code = `\\"${key}\\":" + String(${value}) + "`
 		return [code, Blockly.JavaScript.ORDER_ATOMIC];
 	}
 	
