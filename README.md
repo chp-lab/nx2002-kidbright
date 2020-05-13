@@ -5,6 +5,7 @@
 <img src="static/board_manager_guide.jpg" height="100">
 3. ค้นหาบอร์ด โดยพิมพ์คำว่า 'NX2002' จากนั้นให้ทำการดาวน์โหลดบอร์ด
 
+
 > หมายเหตุ : หากไม่สามารถดาวน์โหลดผ่าน Board Manager ใน KBIDE ได้ ให้ทำการดาวน์โหลดจาก https://github.com/chp-lab/nx2002-kidbright แทน จากนั้นให้ Extract zip ไฟล์และนำโฟลเดอร์ของบอร์ด(เปลี่ยนชื่อ folder ที่ได้เป็น nx2002 ก่อน) ไปวางที่ Board folder ของ KBIDE (สามารถเปิด Board folder ของ KBIDE โดยการเลือกเมนู File > Open Board folder)
 
 ### การเรียกใช้งาน
