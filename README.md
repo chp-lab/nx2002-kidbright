@@ -60,7 +60,7 @@
 <img src="static/block_netpie2020_publish_message.jpg" height="35">
 
 #### Update Shadow : เป็น block สำหรับ update shadow บน NETPIE2020
-<img src="static/block_netpie2020_update_shadow.jpg" height="90">
+<img src="static/block_netpie2020_update_shadow.jpg" height="110">
 
 #### Reconnect NETPIE2020 : เป็น block สำหรับทำการ reconnect NETPIE2020
 <img src="static/block_netpie2020_reconnect.jpg" height="35">
