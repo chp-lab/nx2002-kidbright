@@ -117,5 +117,4 @@ module.exports = function(Blockly){
 		var code = `\\"${key}\\":" + String(${value}) + "`
 		return [code, Blockly.JavaScript.ORDER_ATOMIC];
 	}
-	
 };

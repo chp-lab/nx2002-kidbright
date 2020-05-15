@@ -240,7 +240,7 @@ module.exports = function(Blockly){
 			// Add new inputs.
 			for (i = 0; i < this.itemCount_; i++) {
 				if (!this.getInput('ADD' + i)) {
-					this.appendValueInput('ADD' + i);
+					this.appendValueInput('ADD' + i).setCheck(['KeyValuePair']);
 				}
 			}
 			// Remove deleted inputs.
@@ -264,8 +264,9 @@ module.exports = function(Blockly){
 			this.appendDummyInput()
 					.appendField('Key:')
 					.appendField(new Blockly.FieldTextInput('key'), 'key');
-			this.appendValueInput('value').appendField('Value:');
-			this.setOutput(true, null);
+			this.appendValueInput('value').appendField('Value:').setCheck(['Number', 'Boolean', 'String', 'Array']);
+			this.setInputsInline(true);
+			this.setOutput(true, 'KeyValuePair');
 			this.setColour('#ff1a1a');
 		}
 	}
